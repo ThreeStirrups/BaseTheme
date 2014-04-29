@@ -1,0 +1,7 @@
+#Mac
+.DS_Store
+
+#Sass
+.sass-cache/*
+sass
+config.rb
