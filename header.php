@@ -24,9 +24,9 @@
         <div class="wrap">
             <div id="title-area">
             <?php if(is_front_page()) :?>
-                <h1 class="site-title" itemprop="headline"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+                <h1 class="site-title" itemprop="headline"><?php bloginfo( 'name' ); ?></h1>
             <?php else: ?>
-                <h2 class="site-title" itemprop="headline"><?php bloginfo( 'name' ); ?></h2>
+                <h2 class="site-title" itemprop="headline"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h2>
             <?php endif; ?>
                 <h2 class="site-description" itemprop="description"><?php bloginfo( 'description' ); ?></h2>
             </div>
