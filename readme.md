@@ -1,5 +1,9 @@
-Genesis Base Theme
+Base Theme
 =========
-This is the starter template for all Three Stirrups genesis themes
+This is the starter template for all Three Stirrups themes
 
 ##TODO
+- fix date timestamp
+- comments
+- pagination
+- sidebar

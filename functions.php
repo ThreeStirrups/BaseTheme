@@ -8,4 +8,11 @@ function base_theme_styles_scripts() {
     wp_enqueue_style( 'base-theme-style', get_stylesheet_uri() );
 }
 
+// Add .entry to post class
+add_filter('post_class', 'add_entry_class');
+function add_entry_class($classes) {
+    $classes[] = 'entry';
+    return $classes;
+}
+
 //register header right widget
